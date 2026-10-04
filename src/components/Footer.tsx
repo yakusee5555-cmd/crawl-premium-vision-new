@@ -15,7 +15,7 @@ export function Footer() {
               A premium web design studio building high-converting websites for ambitious brands and founders.
             </p>
             <p className="mt-6 inline-flex items-center gap-2 text-sm text-white/60">
-              <MapPin size={16} weight="light" className="text-[#FF4500]" /> Tunwala, Dehradun, Chaktonwala Grant, Uttarakhand 248001
+              <MapPin size={16} weight="light" className="text-[#E63329]" /> Tunwala, Dehradun, Chaktonwala Grant, Uttarakhand 248001
             </p>
           </div>
 

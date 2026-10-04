@@ -52,7 +52,7 @@ function ContactPage() {
           <Reveal>
             <p className="text-[11px] tracking-[0.25em] uppercase text-white/40">Contact</p>
             <h1 className="mt-4 text-5xl lg:text-7xl tracking-tight leading-[1] text-balance max-w-3xl">
-              Let's build something <span className="italic font-extralight text-[#FF4500]">amazing</span>.
+              Let's build something <span className="text-[#E63329]">amazing</span>.
             </h1>
             <p className="mt-6 max-w-xl text-white/55">
               Tell us about your project. We typically respond within 2 hours during business hours.
@@ -66,7 +66,7 @@ function ContactPage() {
           <div className="lg:col-span-3 glass p-8 lg:p-10">
             {sent ? (
               <div className="text-center py-16">
-                <CheckCircle size={48} weight="light" className="text-[#FF4500] mx-auto" />
+                <CheckCircle size={48} weight="light" className="text-[#E63329] mx-auto" />
                 <h3 className="mt-6 text-2xl tracking-tight">Message received.</h3>
                 <p className="mt-3 text-white/60">We'll be back to you within 2 hours.</p>
               </div>
@@ -84,7 +84,7 @@ function ContactPage() {
                     rows={5}
                     required
                     maxLength={1500}
-                    className="mt-2 w-full bg-transparent border-b border-white/10 focus:border-[#FF4500] outline-none py-3 text-white placeholder:text-white/30 transition resize-none"
+                    className="mt-2 w-full bg-transparent border-b border-white/10 focus:border-[#E63329] outline-none py-3 text-white placeholder:text-white/30 transition resize-none"
                     placeholder="Tell us a bit about your project…"
                   />
                 </div>
@@ -102,8 +102,8 @@ function ContactPage() {
           </div>
 
           <div className="lg:col-span-2 space-y-4">
-            <a href="mailto:crawioagency@gmail.com" className="glass p-6 flex items-center gap-4 hover:border-[#FF4500]/40 transition group">
-              <span className="h-12 w-12 grid place-items-center rounded-xl glass text-[#FF4500]">
+            <a href="mailto:crawioagency@gmail.com" className="glass p-6 flex items-center gap-4 hover:border-[#E63329]/40 transition group">
+              <span className="h-12 w-12 grid place-items-center rounded-xl glass text-[#E63329]">
                 <EnvelopeSimple size={22} weight="light" />
               </span>
               <div className="min-w-0">
@@ -111,8 +111,8 @@ function ContactPage() {
                 <p className="text-xs text-white/50 truncate">We reply within 2 hours</p>
               </div>
             </a>
-            <a href="tel:+16465171947" className="glass p-6 flex items-center gap-4 hover:border-[#FF4500]/40 transition group">
-              <span className="h-12 w-12 grid place-items-center rounded-xl glass text-[#FF4500]">
+            <a href="tel:+16465171947" className="glass p-6 flex items-center gap-4 hover:border-[#E63329]/40 transition group">
+              <span className="h-12 w-12 grid place-items-center rounded-xl glass text-[#E63329]">
                 <Phone size={22} weight="light" />
               </span>
               <div className="min-w-0">
@@ -121,7 +121,7 @@ function ContactPage() {
               </div>
             </a>
             <div className="glass p-6 flex items-center gap-4">
-              <span className="h-12 w-12 grid place-items-center rounded-xl glass text-[#FF4500]">
+              <span className="h-12 w-12 grid place-items-center rounded-xl glass text-[#E63329]">
                 <MapPin size={22} weight="light" />
               </span>
               <div className="min-w-0">
@@ -145,7 +145,7 @@ function ContactPage() {
             <div className="glass-strong rounded-3xl p-6 sm:p-8 lg:p-10">
               <div className="flex flex-wrap items-end justify-between gap-6">
                 <div>
-                  <p className="text-[11px] tracking-[0.25em] uppercase text-[#FF4500]">Book directly</p>
+                  <p className="text-[11px] tracking-[0.25em] uppercase text-[#E63329]">Book directly</p>
                   <h2 className="mt-3 text-3xl lg:text-5xl tracking-tight">Pick a time that works.</h2>
                   <p className="mt-3 text-white/55 max-w-md">A free 20-minute strategy call — no pitch, no pressure.</p>
                 </div>
@@ -157,7 +157,7 @@ function ContactPage() {
               {/* Calendly inline embed */}
               <div className="mt-8 rounded-2xl overflow-hidden border border-white/10 bg-white/[0.02]">
                 <iframe
-                  src="https://calendly.com/crawio/20?hide_gdpr_banner=1&background_color=0a0a0a&text_color=ffffff&primary_color=ff4500"
+                  src="https://calendly.com/crawio/20?hide_gdpr_banner=1&background_color=0a0a0a&text_color=ffffff&primary_color=e63329"
                   title="Book a strategy call with Crawio"
                   loading="lazy"
                   className="w-full"
@@ -183,7 +183,7 @@ function Field({ name, label, type = "text" }: { name: string; label: string; ty
         type={type}
         required
         maxLength={200}
-        className="mt-2 w-full bg-transparent border-b border-white/10 focus:border-[#FF4500] outline-none py-3 text-white placeholder:text-white/30 transition"
+        className="mt-2 w-full bg-transparent border-b border-white/10 focus:border-[#E63329] outline-none py-3 text-white placeholder:text-white/30 transition"
       />
     </div>
   );

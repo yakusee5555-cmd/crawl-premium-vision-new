@@ -221,7 +221,7 @@ function PrivacyPolicyPage() {
                 <h2 className="text-2xl tracking-tight text-white mb-4">10. Contact Us</h2>
                 <p className="mb-3">If you have questions about this Privacy Policy or how your information is handled, contact us at:</p>
                 <p className="text-white/95">Crawio</p>
-                <p>Email: <a href="mailto:crawioagency@gmail.com" className="text-[#FF4500] hover:underline">crawioagency@gmail.com</a></p>
+                <p>Email: <a href="mailto:crawioagency@gmail.com" className="text-[#E63329] hover:underline">crawioagency@gmail.com</a></p>
                 <p>Location:  Tunwala, Nehrugram, Chaktonwala Grant, Uttarakhand</p>
               </section>
 

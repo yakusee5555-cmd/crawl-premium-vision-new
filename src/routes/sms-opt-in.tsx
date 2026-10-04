@@ -26,7 +26,7 @@ function SmsOptInPage() {
         <div className="max-w-3xl mx-auto px-5 sm:px-6 lg:px-10">
           <Reveal>
             <h1 className="text-4xl lg:text-6xl tracking-tight leading-[1.05] text-balance">
-              Stay Connected With <span className="italic font-extralight text-[#FF4500]">Crawio</span>
+              Stay Connected With <span className="text-[#E63329]">Crawio</span>
             </h1>
             <p className="mt-6 text-white/55 max-w-xl leading-relaxed">
               Sign up to receive updates and communications from Crawio

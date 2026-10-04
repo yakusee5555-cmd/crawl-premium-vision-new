@@ -118,7 +118,7 @@ export function Nav() {
                     <Link
                       to={l.to}
                       hash={l.hash}
-                      className="block py-3 text-xl font-light tracking-tight text-white/80 hover:text-[#FF4500] transition-colors"
+                      className="block py-3 text-xl font-light tracking-tight text-white/80 hover:text-[#E63329] transition-colors"
                     >
                       {l.label}
                     </Link>

@@ -79,7 +79,7 @@ function TermsPage() {
                   <p>
                     <strong className="text-white font-semibold">8. Privacy Policy:</strong>{" "}
                     For privacy-related inquiries, please refer to our{" "}
-                    <Link to="/privacy-policy" className="text-[#FF4500] hover:underline">Privacy Policy</Link>.
+                    <Link to="/privacy-policy" className="text-[#E63329] hover:underline">Privacy Policy</Link>.
                   </p>
                   <p>
                     We comply with all applicable laws and regulations, including the Telephone Consumer Protection Act (TCPA) and CTIA guidelines, regarding the use of SMS communications.
@@ -193,7 +193,7 @@ function TermsPage() {
                   <li className="text-white">Crawio</li>
                   <li>
                     Email:{" "}
-                    <a href="mailto:crawioagency@gmail.com" className="text-[#FF4500] hover:underline">crawioagency@gmail.com</a>
+                    <a href="mailto:crawioagency@gmail.com" className="text-[#E63329] hover:underline">crawioagency@gmail.com</a>
                   </li>
                   <li>Location: Tunwala, Nehrugram, Chaktonwala Grant, Uttarakhand</li>
                 </ul>

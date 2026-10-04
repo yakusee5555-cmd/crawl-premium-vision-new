@@ -66,7 +66,7 @@ export function SmsOptInForm({ idPrefix = "sms" }: { idPrefix?: string }) {
   if (sent) {
     return (
       <div className="py-10 text-center">
-        <CheckCircle size={48} weight="light" className="text-[#FF4500] mx-auto" />
+        <CheckCircle size={48} weight="light" className="text-[#E63329] mx-auto" />
         <p className="mt-6 text-lg text-white/80 leading-relaxed max-w-xl mx-auto">
           Thanks! Your information has been received. If you opted in to SMS, you'll receive messages
           from Crawio according to your consent.
@@ -107,8 +107,8 @@ export function SmsOptInForm({ idPrefix = "sms" }: { idPrefix?: string }) {
       {error && <p className="text-sm text-red-400">{error}</p>}
 
       <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
-        <Link to="/privacy-policy" className="text-[#FF4500] hover:underline">Privacy Policy</Link>
-        <Link to="/terms" className="text-[#FF4500] hover:underline">Terms and Conditions</Link>
+        <Link to="/privacy-policy" className="text-[#E63329] hover:underline">Privacy Policy</Link>
+        <Link to="/terms" className="text-[#E63329] hover:underline">Terms and Conditions</Link>
       </div>
 
       <div className="pt-1">
@@ -142,7 +142,7 @@ function Consent({
         type="checkbox"
         checked={checked}
         onChange={(e) => onChange(e.target.checked)}
-        className="mt-1 h-4 w-4 shrink-0 accent-[#FF4500]"
+        className="mt-1 h-4 w-4 shrink-0 accent-[#E63329]"
       />
       <span className="text-sm text-white/70 leading-relaxed">{text}</span>
     </label>
@@ -174,7 +174,7 @@ function Field({
         type={type}
         placeholder={placeholder}
         maxLength={200}
-        className="mt-2 w-full bg-transparent border-b border-white/10 focus:border-[#FF4500] outline-none py-3 text-white placeholder:text-white/30 transition"
+        className="mt-2 w-full bg-transparent border-b border-white/10 focus:border-[#E63329] outline-none py-3 text-white placeholder:text-white/30 transition"
         {...rest}
       />
     </div>
@@ -186,11 +186,11 @@ export function SmsOptInSection() {
     <section id="sms-opt-in" className="relative scroll-mt-24 py-12 lg:py-16">
       <div className="max-w-3xl mx-auto px-5 sm:px-6 lg:px-10">
         <div className="relative">
-          <div className="absolute inset-x-10 -top-6 h-40 bg-[#7C3AED] opacity-20 blur-[120px] rounded-full pointer-events-none" />
+          <div className="absolute inset-x-10 -top-6 h-40 bg-[#E63329] opacity-20 blur-[120px] rounded-full pointer-events-none" />
           <div className="relative rounded-3xl border border-white/10 bg-[#0C0A14]/90 backdrop-blur-xl shadow-[0_40px_120px_-40px_rgba(124,58,237,0.55)] p-6 sm:p-8 lg:p-10">
             <div className="text-center">
               <h2 className="text-3xl lg:text-5xl tracking-tight text-balance">
-                Stay Connected With <span className="italic font-extralight text-[#FF4500]">Crawio</span>
+                Stay Connected With <span className="text-[#E63329]">Crawio</span>
               </h2>
               <p className="mt-5 text-white/55 leading-relaxed">
                 Sign up to receive updates and communications from Crawio
