@@ -114,7 +114,6 @@ function Home() {
       <Services />
       <HowItWorks />
       <Portfolio />
-      <Pricing />
       <Testimonials />
       <FAQ />
       <Guarantee />
@@ -472,59 +471,6 @@ function Portfolio() {
             </motion.a>
           ))}
         </div>
-      </div>
-    </section>
-  );
-}
-
-function Pricing() {
-  return (
-    <section id="pricing" className="py-16 lg:py-24">
-      <div className="max-w-7xl mx-auto px-6 lg:px-10">
-        <Reveal className="max-w-2xl mx-auto text-center">
-          <p className="text-[11px] tracking-[0.25em] uppercase text-white/40">Pricing</p>
-          <h2 className="mt-4 text-4xl lg:text-6xl">
-            Simple pricing,<br />serious returns.
-          </h2>
-          <p className="mt-5 text-white/55 leading-relaxed">
-            The website is free. You pay for the machine that turns it into jobs.
-          </p>
-        </Reveal>
-
-        <div className="mt-10 lg:mt-14 grid lg:grid-cols-3 gap-5 items-stretch max-w-5xl mx-auto">
-          {tiers.map((t, i) => (
-            <Reveal key={t.name} delay={i * 0.08} className="h-full">
-              <div className={`relative h-full rounded-3xl p-8 flex flex-col ${t.featured ? "glass-strong border-[#E63329]/50 border" : "glass"}`}>
-                {t.featured && (
-                  <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1.5 rounded-full bg-[#E63329] text-[11px] tracking-[0.15em] uppercase text-white font-medium">
-                    Most popular
-                  </span>
-                )}
-                <h3 className="text-xl">{t.name}</h3>
-                <p className="mt-4 flex items-baseline gap-2">
-                  <span className="text-5xl tracking-tight text-white">{t.price}</span>
-                  <span className="text-sm text-white/40">{t.per}</span>
-                </p>
-                <p className="mt-3 text-sm text-white/55 leading-relaxed">{t.blurb}</p>
-                <ul className="mt-6 space-y-3 flex-1">
-                  {t.features.map((f) => (
-                    <li key={f} className="flex items-start gap-2.5 text-sm text-white/70">
-                      <CheckCircle size={16} weight="light" className="text-[#E63329] shrink-0 mt-0.5" />
-                      {f}
-                    </li>
-                  ))}
-                </ul>
-                <Link to="/contact" className={`mt-8 ${t.featured ? "neu-btn neu-btn-primary" : "neu-btn"} w-full`}>
-                  {t.cta} <ArrowRight size={16} weight="light" />
-                </Link>
-              </div>
-            </Reveal>
-          ))}
-        </div>
-
-        <Reveal className="text-center">
-          <p className="mt-8 text-sm text-white/40">No contracts — cancel anytime.</p>
-        </Reveal>
       </div>
     </section>
   );
